@@ -1,6 +1,10 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.32f1 (c8300dc0a3fa) revision 13119501'; Using compiler version '192829333'; Build Type 'Release'
+<<<<<<< Updated upstream:A Aie Chaud/Logs/AssetImportWorker2.log
 OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'fr' Physical Memory: 15741 MB
+=======
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'fr' Physical Memory: 32456 MB
+>>>>>>> Stashed changes:A Aie Chaud/Logs/AssetImportWorker0-prev.log
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +15,23 @@ C:\Program Files\Unity\Hub\Editor\2022.3.32f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
+<<<<<<< Updated upstream:A Aie Chaud/Logs/AssetImportWorker2.log
 D:/github_/A-Aie-Chaud/A Aie Chaud
+=======
+C:/GITHUB/A-Aie-Chaud2/A Aie Chaud
+>>>>>>> Stashed changes:A Aie Chaud/Logs/AssetImportWorker0-prev.log
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
+<<<<<<< Updated upstream:A Aie Chaud/Logs/AssetImportWorker2.log
 11875
 Successfully changed project path to: D:/github_/A-Aie-Chaud/A Aie Chaud
 D:/github_/A-Aie-Chaud/A Aie Chaud
+=======
+64181
+Successfully changed project path to: C:/GITHUB/A-Aie-Chaud2/A Aie Chaud
+C:/GITHUB/A-Aie-Chaud2/A Aie Chaud
+>>>>>>> Stashed changes:A Aie Chaud/Logs/AssetImportWorker0-prev.log
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +63,7 @@ D:/github_/A-Aie-Chaud/A Aie Chaud
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream:A Aie Chaud/Logs/AssetImportWorker2.log
 Player connection [38708] Host "[IP] 169.254.43.196 [Port] 0 [Flags] 2 [Guid] 2582116712 [EditorId] 2582116712 [Version] 1048832 [Id] WindowsEditor(7,PC-HUAWEI-William-BAAL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [38708] Host "[IP] 169.254.43.196 [Port] 0 [Flags] 2 [Guid] 2582116712 [EditorId] 2582116712 [Version] 1048832 [Id] WindowsEditor(7,PC-HUAWEI-William-BAAL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -66,15 +81,39 @@ Direct3D:
     Vendor:   ATI
     VRAM:     7870 MB
     Driver:   27.20.11022.14001
+=======
+Player connection [39228] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 284523985 [EditorId] 284523985 [Version] 1048832 [Id] WindowsEditor(7,PC_Benji) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [39228] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 284523985 [EditorId] 284523985 [Version] 1048832 [Id] WindowsEditor(7,PC_Benji) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Refreshing native plugins compatible for Editor in 6.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.32f1 (c8300dc0a3fa)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GITHUB/A-Aie-Chaud2/A Aie Chaud/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   31.0.15.5212
+>>>>>>> Stashed changes:A Aie Chaud/Logs/AssetImportWorker0-prev.log
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream:A Aie Chaud/Logs/AssetImportWorker2.log
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+>>>>>>> Stashed changes:A Aie Chaud/Logs/AssetImportWorker0-prev.log
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream:A Aie Chaud/Logs/AssetImportWorker2.log
 Registered in 0.382011 seconds.
 - Loaded All Assemblies, in  8.023 seconds
 Native extension for WindowsStandalone target not found
@@ -84,11 +123,23 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  1.382 seconds
 Domain Reload Profiling: 9404ms
 	BeginReloadAssembly (5421ms)
+=======
+Registered in 0.007541 seconds.
+- Loaded All Assemblies, in  0.484 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 447 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.743 seconds
+Domain Reload Profiling: 1226ms
+	BeginReloadAssembly (182ms)
+>>>>>>> Stashed changes:A Aie Chaud/Logs/AssetImportWorker0-prev.log
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream:A Aie Chaud/Logs/AssetImportWorker2.log
 	RebuildCommonClasses (476ms)
 	RebuildNativeTypeToScriptingClass (14ms)
 	initialDomainReloadingComplete (449ms)
@@ -111,6 +162,30 @@ Domain Reload Profiling: 9404ms
 			BeforeProcessingInitializeOnLoad (4ms)
 			ProcessInitializeOnLoadAttributes (197ms)
 			ProcessInitializeOnLoadMethodAttributes (85ms)
+=======
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (186ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (170ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (744ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (701ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (547ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+>>>>>>> Stashed changes:A Aie Chaud/Logs/AssetImportWorker0-prev.log
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +193,13 @@ Domain Reload Profiling: 9404ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream:A Aie Chaud/Logs/AssetImportWorker2.log
 - Loaded All Assemblies, in  7.459 seconds
 Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  0.561 seconds
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+>>>>>>> Stashed changes:A Aie Chaud/Logs/AssetImportWorker0-prev.log
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,6 +207,7 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream:A Aie Chaud/Logs/AssetImportWorker2.log
 - Finished resetting the current domain, in  0.940 seconds
 Domain Reload Profiling: 8398ms
 	BeginReloadAssembly (182ms)
@@ -168,6 +249,49 @@ Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 33 unused Assets / (57.7 KB). Loaded Objects now: 3580.
 Memory consumption went from 128.8 MB to 128.8 MB.
 Total: 5.342300 ms (FindLiveObjects: 0.441900 ms CreateObjectMapping: 0.093800 ms MarkObjects: 4.479800 ms  DeleteObjects: 0.322900 ms)
+=======
+- Finished resetting the current domain, in  0.524 seconds
+Domain Reload Profiling: 1082ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (360ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (132ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (524ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 3.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.9 KB). Loaded Objects now: 3580.
+Memory consumption went from 129.5 MB to 129.4 MB.
+Total: 2.986900 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.099200 ms MarkObjects: 2.513600 ms  DeleteObjects: 0.096500 ms)
+>>>>>>> Stashed changes:A Aie Chaud/Logs/AssetImportWorker0-prev.log
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,3 +307,24 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< Updated upstream:A Aie Chaud/Logs/AssetImportWorker2.log
+=======
+========================================================================
+Received Import Request.
+  Time since last request: 41650.351163 seconds.
+  path: Assets/Assets
+  artifactKey: Guid(fd79af1f77c06404ab9b5aa75fd45872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets using Guid(fd79af1f77c06404ab9b5aa75fd45872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6cf1fa4f567d5d5eae04017ce67694e2') in 0.002709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.870859 seconds.
+  path: Assets/Fichier ben
+  artifactKey: Guid(fd79af1f77c06404ab9b5aa75fd45872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fichier ben using Guid(fd79af1f77c06404ab9b5aa75fd45872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c34b65e6aa331595d2feaf1d679995d8') in 0.000478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+>>>>>>> Stashed changes:A Aie Chaud/Logs/AssetImportWorker0-prev.log
