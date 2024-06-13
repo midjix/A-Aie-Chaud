@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class persofps : MonoBehaviour
+public class move : MonoBehaviour
 {
 
     //camera
