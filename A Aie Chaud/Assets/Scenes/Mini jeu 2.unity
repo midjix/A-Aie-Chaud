@@ -306,6 +306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Capsule
       objectReference: {fileID: 0}
+    - target: {fileID: 6108964835207553121, guid: b3bcdfba1dccd304286fcfbf836db807, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6355666962278694571, guid: b3bcdfba1dccd304286fcfbf836db807, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
