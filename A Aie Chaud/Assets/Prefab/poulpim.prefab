@@ -5240,7 +5240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 337393254577861461}
   walkingspeed: 2
-  runningspeed: 4
+  runningspeed: 5
   jumpspeed: 7.5
   rotationSpeed: 2
   rotationXLimit: 45
