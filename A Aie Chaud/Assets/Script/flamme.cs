@@ -4,6 +4,7 @@ public class ParticleActivator : MonoBehaviour
 {
 
     public GameObject objetFlamme;
+    public GameObject canva;
     void Start()
     {
     }
@@ -13,6 +14,7 @@ public class ParticleActivator : MonoBehaviour
         if (touch.gameObject.name == "flamme")
         {
             objetFlamme.gameObject.SetActive(true);
+            canva.gameObject.SetActive(true);
         }
     }
 }
