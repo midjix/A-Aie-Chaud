@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UpLava : MonoBehaviour
 {
-    public float speed = 1;
+    public float speed = 21;
     // Start is called before the first frame update
     void Start()
     {
