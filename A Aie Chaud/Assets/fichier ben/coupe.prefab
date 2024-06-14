@@ -907,8 +907,8 @@ Transform:
   m_GameObject: {fileID: 6974844652193754586}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.14520031, y: 4.91, z: 0.047142796}
-  m_LocalScale: {x: 7.421275, y: 7.4544034, z: 8.027851}
+  m_LocalPosition: {x: -0.14520064, y: 4.91, z: 0.047142826}
+  m_LocalScale: {x: 7.421275, y: 7.4544044, z: 8.027851}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4487986472030681674}
@@ -5815,6 +5815,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &9012053527864295831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2713017412268301723}
+  m_Layer: 0
+  m_Name: flamme
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2713017412268301723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012053527864295831}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.14520064, y: 4.91, z: 0.047142826}
+  m_LocalScale: {x: 0.8679492, y: 0.93889064, z: 0.8718236}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4487986472030681674}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4161957826062245281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5921,6 +5952,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18f8ef486b33178429d099e8b963152c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3195406776979252754}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18f8ef486b33178429d099e8b963152c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2713017412268301723}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18f8ef486b33178429d099e8b963152c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8972962866398853877}
