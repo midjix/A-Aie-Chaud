@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e91b633ccc32d64cbfffd1d6dc0a3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 11
   personnage: {fileID: 679185802}
   spawn: {fileID: 1273986203}
 --- !u!4 &351155139 stripped
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e91b633ccc32d64cbfffd1d6dc0a3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 15
   personnage: {fileID: 679185802}
   spawn: {fileID: 1273986203}
 --- !u!1 &499225852 stripped
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e91b633ccc32d64cbfffd1d6dc0a3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 18
   personnage: {fileID: 679185802}
   spawn: {fileID: 1273986203}
 --- !u!1 &564815624
@@ -551,7 +551,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e230e9415077e82458d45aca9b6caeac, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4a41dd033c1911247be3841450ded495, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -773,6 +773,14 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 969939375913212446, guid: df21ad063b6d5f84391cade646d2223b, type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 1273986203}
+    - target: {fileID: 969939375913212446, guid: df21ad063b6d5f84391cade646d2223b, type: 3}
+      propertyPath: personnage
+      value: 
+      objectReference: {fileID: 679185802}
     - target: {fileID: 1135322569970849152, guid: df21ad063b6d5f84391cade646d2223b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.42
@@ -1247,7 +1255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e91b633ccc32d64cbfffd1d6dc0a3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 16
   personnage: {fileID: 679185802}
   spawn: {fileID: 1273986203}
 --- !u!1 &1229254450 stripped
@@ -1294,7 +1302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e91b633ccc32d64cbfffd1d6dc0a3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 14
   personnage: {fileID: 679185802}
   spawn: {fileID: 1273986203}
 --- !u!4 &1247477993 stripped
@@ -1434,7 +1442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e91b633ccc32d64cbfffd1d6dc0a3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 13
   personnage: {fileID: 679185802}
   spawn: {fileID: 1273986203}
 --- !u!1 &1688676743
@@ -1592,7 +1600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e91b633ccc32d64cbfffd1d6dc0a3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 14
   personnage: {fileID: 679185802}
   spawn: {fileID: 1273986203}
 --- !u!1 &2031951077

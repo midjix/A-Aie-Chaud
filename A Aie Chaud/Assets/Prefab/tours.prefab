@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7913058624661809350}
   - component: {fileID: 6596571522017024963}
   - component: {fileID: 744454011388855726}
+  - component: {fileID: 969939375913212446}
   m_Layer: 0
   m_Name: Sphere (10)
   m_TagString: Untagged
@@ -105,6 +106,21 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &969939375913212446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196040043468854163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e91b633ccc32d64cbfffd1d6dc0a3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 11
+  personnage: {fileID: 0}
+  spawn: {fileID: 0}
 --- !u!1 &853052529388263411
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,7 +898,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e91b633ccc32d64cbfffd1d6dc0a3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
+  personnage: {fileID: 0}
+  spawn: {fileID: 0}
 --- !u!1 &2911803023700829524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1926,7 +1944,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e91b633ccc32d64cbfffd1d6dc0a3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 7
+  personnage: {fileID: 0}
+  spawn: {fileID: 0}
 --- !u!1 &4802324905814385654
 GameObject:
   m_ObjectHideFlags: 0
@@ -2571,6 +2591,7 @@ GameObject:
   - component: {fileID: 3595551751420994203}
   - component: {fileID: 9163388266421152187}
   - component: {fileID: 6937368925794247843}
+  - component: {fileID: 5331258912600454501}
   m_Layer: 0
   m_Name: Sphere (9)
   m_TagString: Untagged
@@ -2677,6 +2698,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  personnage: {fileID: 0}
+  spawn: {fileID: 0}
+--- !u!54 &5331258912600454501
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6759440896703894348}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &6847018313480297238
 GameObject:
   m_ObjectHideFlags: 0
@@ -3454,7 +3504,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e91b633ccc32d64cbfffd1d6dc0a3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 9
+  personnage: {fileID: 0}
+  spawn: {fileID: 0}
 --- !u!1 &8463822744267628580
 GameObject:
   m_ObjectHideFlags: 0
